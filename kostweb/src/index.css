@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-intertight: "Inter Tight", sans-serif;
+}
+
+.bodybase {
+  width: screen;
+  height: fit-content;
+  max-width: 100%;
+  overflow-x: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
